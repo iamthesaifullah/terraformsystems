@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Terraform Systems | Terraform - Design. Transform. Sustain.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      content="A fully responsive Tailwind CSS Multipurpose agency, application, business, clean, creative, cryptocurrency, it solutions, startup, career, blog, modern, creative, multipurpose, portfolio, saas, software, tailwind css, etc."
+      name="description"
+    />
+    <meta content="coderthemes" name="author" />
+
+    <!-- Theme favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!--Swiper slider css-->
+    <link
+      href="assets/libs/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Animation on Scroll css -->
+    <link href="assets/libs/aos/aos.css" rel="stylesheet" type="text/css" />
+
+    <!-- Style css -->
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Icons css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- =========== Navbar Start =========== -->
+    <header
+      id="navbar"
+      class="light fixed top-0 inset-x-0 flex items-center z-40 w-full lg:bg-transparent bg-white transition-all py-5"
+    >
+      <div class="container">
+        <nav class="flex items-center">
+          <!-- Navbar Brand Logo -->
+          <a href="index.html">
+            <img
+              src="assets/images/logo-dark.png"
+              class="h-8 logo-dark"
+              alt="Logo Dark"
+            />
+            <img
+              src="assets/images/logo-light.png"
+              class="h-8 logo-light"
+              alt="Logo Light"
+            />
+          </a>
+
+          <!-- Nevigation Menu -->
+          <div class="hidden lg:block ms-auto">
+            <ul class="navbar-nav flex gap-x-3 items-center justify-center">
+              <!-- Home Page Link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#what-we-do">What we do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#who-we-are">Who we are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+
+              <!-- Contact Page Link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">Contact us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Moblie Menu Toggle Button (Offcanvas Button) -->
+          <div class="lg:hidden flex items-center ms-auto px-2.5">
+            <button
+              type="button"
+              data-fc-target="mobileMenu"
+              data-fc-type="offcanvas"
+            >
+              <i class="fa-solid fa-bars text-2xl text-gray-500"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- =========== Navbar End =========== -->
+
+    <!-- =========== Mobile Menu Start (Offcanvas) =========== -->
+    <div
+      id="mobileMenu"
+      class="fc-offcanvas-open:translate-x-0 translate-x-full fixed top-0 end-0 transition-all duration-200 transform h-full w-full max-w-md z-50 bg-white border-s hidden"
+    >
+      <div class="flex flex-col h-full divide-y-2 divide-gray-200">
+        <!-- Mobile Menu Topbar Logo (Header) -->
+        <div class="p-6 flex items-center justify-between">
+          <a href="index.html">
+            <img src="assets/images/logo-dark.png" class="h-8" alt="Logo" />
+          </a>
+
+          <button data-fc-dismiss class="flex items-center px-2">
+            <i class="fa-solid fa-xmark text-xl"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Menu Link List -->
+        <div class="p-6 overflow-scroll h-full">
+          <ul class="navbar-nav flex flex-col gap-2" data-fc-type="accordion">
+           <!-- Home Page Link -->
+           <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#what-we-do">What we do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#who-we-are">Who we are</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+
+          <!-- Contact Page Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact us</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- =========== Mobile Menu End =========== -->
+
+    <!-- =========== Hero Section Start =========== -->
+    <section id="home" class="py-44 relative bg-amber-500/5">
+      <div class="hero-with-shapes">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+
+        <div class="container">
+          <div>
+            <h1 class="md:text-5xl text-3xl text-gray-700 font-medium my-5">
+              Grow Your
+              <span
+                class="relative after:bg-amber-200 md:after:h-6 after:h-4 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10"
+                >Business</span
+              >
+              with Us
+            </h1>
+            <p class="w-3/4 text-lg font-medium mt-6 mb-20 text-slate-600">
+              We're a top-notch web design and development team helping business
+              to craft the meaningful and interactive product experiences.
+            </p>
+            <div class="flex flex-wrap items-center gap-5">
+              <a
+                href="#contact-us"
+                class="py-3 px-6 rounded border border-black text-white bg-black hover:shadow-lg hover:shadow-black/50 focus:outline focus:outline-black/50 transition-all duration-500"
+                ><i class="fa-solid fa-arrow-down me-2"></i> Get started </a
+              >
+              <a
+                href="#what-we-do"
+                class="py-3 px-6 rounded border border-black hover:border-black hover:bg-black hover:text-white hover:shadow-lg hover:shadow-black/50 focus:outline focus:outline-black/50 transition-all duration-500"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute end-0 top-48 hidden md:block">
+        <div class="flex items-center gap-5 vertical-rl px-2">
+          <a href="#" class="text-lg" target="_blank">Twitter</a>
+          <a
+            href="https://www.facebook.com/terraformsystems"
+            target="_blank"
+            class="text-lg"
+            >Facebook</a
+          >
+          <a href="#" class="text-lg" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </section>
+    <!-- =========== Hero Section End =========== -->
+
+    <!-- =========== services Section Start =========== -->
+    <section id="what-we-do" class="py-20">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="text-3xl font-medium">What We Do</h1>
+          <p class="font-medium text-slate-500 mt-5 mb-4">
+            We are helping businesses to develop their web applications
+          </p>
+        </div>
+
+        <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pt-12 gap-4">
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">
+              Full Stack Web Development
+            </h4>
+            <p class="text-slate-400">
+              Providing scalable web solutions with PHP (Laravel), MERN, and
+              Python (Django, Flask) to meet modern business needs.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">UI/UX Design</h4>
+            <p class="text-slate-400">
+              Creating seamless and meaningful user experiences through
+              innovative interfaces and engaging designs.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">Website Security and DevOPS</h4>
+            <p class="text-slate-400">
+              Ensuring your website is protected from vulnerabilities with
+              advanced security measures and malware removal solutions.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">WordPress, Shopify, Wix</h4>
+            <p class="text-slate-400">
+              Building powerful, tailored solutions for e-commerce, blogs, and
+              corporate sites on leading CMS platforms.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">Custom Development</h4>
+            <p class="text-slate-400">
+              Building bespoke web applications from scratch, ensuring unique
+              functionalities and high performance tailored to your needs.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">
+              Graphic Design & Printing
+            </h4>
+            <p class="text-slate-400">
+              Delivering standout graphic designs for branding, marketing, and
+              prints with exceptional quality and precision.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">Mobile App Development</h4>
+            <p class="text-slate-400">
+              Creating intuitive and feature-rich mobile apps to enhance
+              customer engagement on Android and iOS platforms.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">API Integration</h4>
+            <p class="text-slate-400">
+              Integrating cutting-edge APIs into your applications for enhanced
+              functionality and seamless third-party interactions.
+            </p>
+          </div>
+          <!-- card end -->
+
+          <!-- card start -->
+          <div
+            class="p-6 hover:bg-white rounded-md hover:shadow-xl transition-all duration-500"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 rounded-md bg-primary/20 flex items-center justify-center"
+            >
+              <svg
+                class="w-7 h-7 text-primary"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <!-- Icon content here -->
+              </svg>
+            </div>
+            <h4 class="text-base font-medium my-5">Product Development</h4>
+            <p class="text-slate-400">
+              Designing and launching innovative products for diverse
+              marketplaces, delivering solutions that make an impact.
+            </p>
+          </div>
+          <!-- card end -->
+        </div>
+      </div>
+    </section>
+    <!-- =========== services Section End =========== -->
+
+    <!-- =========== portfolio Section Start =========== -->
+    <!-- =========== portfolio Section End =========== -->
+
+    <!-- Who We Are Section -->
+    <section class="bg-gray-100 py-12" id="who-we-are">
+      <div class="container mx-auto px-6 lg:px-16">
+        <!-- Who We Are Intro -->
+        <div class="flex flex-wrap items-center mb-12">
+          <!-- Image -->
+          <div
+            class="w-full lg:w-1/2 mb-6 lg:mb-0"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
+            <img
+              src="https://via.placeholder.com/600x400"
+              alt="Who We Are"
+              class="rounded-md shadow-lg mx-auto"
+            />
+          </div>
+          <!-- Text Content -->
+          <div
+            class="w-full lg:w-1/2 lg:pl-12"
+            data-aos="fade-left"
+            data-aos-duration="700"
+          >
+            <h2 class="text-3xl lg:text-4xl font-bold text-primary mb-4">
+              Who We Are
+            </h2>
+            <p class="text-slate-600 text-lg mb-4">
+              Terraform Systems is a passionate team of technologists,
+              designers, and innovators dedicated to empowering businesses with
+              next-generation IT solutions. We specialize in crafting tailored
+              services, from full-stack web development to website security,
+              custom design, and even launching our own innovative products for
+              global markets.
+            </p>
+            <p class="text-slate-600 text-lg">
+              At our core, we aim to redefine excellence in technology by
+              bridging creativity, innovation, and client-centric solutions that
+              stand out in a competitive world.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mission, Vision, Values -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Mission -->
+          <div
+            class="p-6 rounded-md bg-white shadow-sm transition-all hover:shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <div
+              class="w-12 h-12 bg-primary/20 flex items-center justify-center rounded-md"
+            >
+              <svg
+                class="w-6 h-6 text-primary"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                />
+              </svg>
+            </div>
+            <h4 class="text-xl font-semibold mt-4">Our Mission</h4>
+            <p class="text-slate-500 mt-2">
+              Deliver transformative solutions that combine cutting-edge
+              technology, creativity, and efficiency to bring our clients' ideas
+              to life.
+            </p>
+          </div>
+          <!-- Vision -->
+          <div
+            class="p-6 rounded-md bg-white shadow-sm transition-all hover:shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            <div
+              class="w-12 h-12 bg-primary/20 flex items-center justify-center rounded-md"
+            >
+              <svg
+                class="w-6 h-6 text-primary"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12h6m-3 3l3-3-3-3m-3 3l-3-3 3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h4 class="text-xl font-semibold mt-4">Our Vision</h4>
+            <p class="text-slate-500 mt-2">
+              Empower businesses to achieve limitless possibilities by bridging
+              the gap between technology and innovation.
+            </p>
+          </div>
+          <!-- Values -->
+          <div
+            class="p-6 rounded-md bg-white shadow-sm transition-all hover:shadow-lg"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            <div
+              class="w-12 h-12 bg-primary/20 flex items-center justify-center rounded-md"
+            >
+              <svg
+                class="w-6 h-6 text-primary"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 10h11M9 21V3m-6 7h6m12 6h-8m4 4V10m0 4h4"
+                />
+              </svg>
+            </div>
+            <h4 class="text-xl font-semibold mt-4">Our Core Values</h4>
+            <p class="text-slate-500 mt-2">
+              Integrity, innovation, and excellence are at the heart of every
+              service we offer, driving our commitment to your success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- who we are end -->
+
+    <!-- =========== Our team Section Start =========== -->
+    <section class="lg:py-24 py-16" id="team">
+      <div class="container">
+        <div class="text-center">
+          <span
+            class="text-sm bg-primary/10 text-primary/40 rounded-full px-3 py-1"
+            >Our Team</span
+          >
+          <h1 class="text-3xl/tight font-medium mt-3 mb-4">Meet Our Team</h1>
+          <p class="text-gray-500">
+            Start working with<span class="text-primary"> Prompt </span>to
+            manage your workforce better.
+          </p>
+        </div>
+
+        <div class="mt-14">
+          <div
+            class="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12"
+            data-aos="fade-up"
+          >
+            <!-- team 1 -->
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/img-1.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Md Saifullah</h6>
+                  <p class="text-gray-500">Co-Founder</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- team 2 -->
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/img-2.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Md Shahadat Hossain</h6>
+                  <p class="text-gray-500">Co-Founder</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- team 3 -->
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/img-3.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Md Ishtiaque</h6>
+                  <p class="text-gray-500">Co-Founder</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- team 4 -->
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/img-4.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Md Ibrahim Khalil</h6>
+                  <p class="text-gray-500">Co-Founder</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- team 5 -->
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/img-5.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Harry Burris</h6>
+                  <p class="text-gray-500">PHP Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- team 6 -->
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/img-6.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Patricia Ferraro</h6>
+                  <p class="text-gray-500">Web Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== Our team Section end =========== -->
+
+    <!-- =========== technologo stack Section Start =========== -->
+    <section
+      class="bg-gradient-to-r from-gray-100/70 to-gray-100 relative xl:py-24 py-16"
+    >
+      <div class="absolute top-0 inset-x-0 hidden sm:block">
+        <img
+          src="assets/images/shapes/white-wave.svg"
+          alt="svg"
+          class="w-full -scale-x-100"
+        />
+      </div>
+
+      <div class="py-5">
+        <div class="container" data-aos="fade-up" data-aos-duration="300">
+          <div class="text-center">
+            <span
+              class="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10"
+              >Technology Stack</span
+            >
+            <h1 class="text-3xl/tight font-medium mt-3 mb-4">
+              Bringing our vision to life with cutting-edge technology
+            </h1>
+            <p class="text-gray-500">
+              Leveraging advanced tools and solutions to drive progress and
+              innovation.
+            </p>
+          </div>
+          <!-- programming languages -->
+          <div
+            class="flex flex-wrap items-center justify-center lg:gap-24 gap-10 mt-14"
+          >
+            <div>
+              <img src="assets/images/techstack/java.svg" class="h-8" />
+            </div>
+            <div>
+              <img src="assets/images/techstack/python.svg" class="h-8" />
+            </div>
+            <div>
+              <img src="assets/images/techstack/php.png" class="h-8" />
+            </div>
+            <div>
+              <img src="assets/images/techstack/ruby.svg" class="h-8" />
+            </div>
+            <div>
+              <img src="assets/images/techstack/javascript.svg" class="h-8" />
+            </div>
+            <div>
+              <img src="assets/images/techstack/typescript.svg" class="h-8" />
+            </div>
+          </div>
+          <!-- programming languages -->
+
+          <!-- programming languages Framework -->
+          <div
+            class="flex flex-wrap items-center justify-center lg:gap-24 gap-10 mt-14"
+          >
+            <div>
+              <img
+                src="assets/images/techstack/framework/react.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/angular.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/vuejs.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/laravel.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/django.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/nodejs.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/jquery.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/rails.svg"
+                class="h-8"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/techstack/framework/boostrap.svg"
+                class="h-8"
+              />
+            </div>
+          </div>
+          <!-- programming languages Framework -->
+        </div>
+      </div>
+    </section>
+    <!-- =========== technology stack Section end =========== -->
+
+    <!-- =========== Counter Section Start =========== -->
+    <section
+      class="bg-gradient-to-r from-gray-200/50 to-gray-100/50 relative lg:py-24 py-16"
+    >
+      <div class="absolute top-0 inset-x-0 hidden sm:block">
+        <img
+          src="assets/images/shapes/white-wave.svg"
+          alt="white-wave-svg"
+          class="w-full -scale-x-100"
+        />
+      </div>
+
+      <div class="py-10">
+        <div class="container" data-aos="fade-up">
+          <div class="text-center">
+            <span
+              class="text-sm bg-primary/10 text-primary rounded-full px-3 py-1"
+              >Stats</span
+            >
+            <h1 class="text-3xl/tight font-medium mt-3">Our Productivity</h1>
+          </div>
+
+          <div class="mt-14">
+            <div
+              class="grid xl:grid-cols-4 sm:grid-cols-2 text-center gap-10 lg:gap-6"
+            >
+              <div>
+                <span class="text-3xl">100+</span>
+                <h1 class="mt-3 mb-1">Products Built</h1>
+                <p class="text-gray-500">helped clients across the globe</p>
+              </div>
+              <div>
+                <span class="text-3xl">$21M+</span>
+                <h1 class="mt-3 mb-1">Revenue Generated</h1>
+                <p class="text-gray-500">across 10+ countries</p>
+              </div>
+              <div>
+                <span class="text-3xl">100+</span>
+                <h1 class="mt-3 mb-1">Satisfied Clients</h1>
+                <p class="text-gray-500">across 100+ locations</p>
+              </div>
+              <div>
+                <span class="text-3xl">10+</span>
+                <h1 class="mt-3 mb-1">Awards Won</h1>
+                <p class="text-gray-500">on Awwwards, CSS Design Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== Counter Section end =========== -->
+
+    <!-- =========== Contact Us Start =========== -->
+    <section class="lg:pb-24 py-6 relative" id="contact-us">
+      <div class="container mx-auto">
+        <div class="text-center mb-8">
+          <span
+            class="text-sm bg-primary/10 text-primary rounded-full px-3 py-1"
+            >Contact us</span
+          >
+          <h1 class="text-3xl font-medium mt-3">
+            "Got Questions? We’ve Got Answers – Reach Out!"
+          </h1>
+        </div>
+        <div class="flex justify-center">
+          <div class="bg-white shadow-md rounded p-6 w-full max-w-lg">
+            <h2 class="text-2xl font-medium mb-4">Let's Talk Further</h2>
+            <p class="text-base mb-6">
+              Please fill out the following form and we will get back to you
+              shortly
+            </p>
+
+            <form>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+                <div>
+                  <label
+                    for="exampleInputName1"
+                    class="block text-sm font-medium text-gray-600 mb-1"
+                    >First Name <span class="text-red-500">*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="exampleInputName1"
+                    placeholder="First Name"
+                    class="py-2 px-4 border border-gray-300 rounded w-full focus:ring-primary focus:border-primary"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="exampleInputLastName1"
+                    class="block text-sm font-medium text-gray-600 mb-1"
+                    >Last Name <span class="text-red-500">*</span></label
+                  >
+                  <input
+                    type="text"
+                    id="exampleInputLastName1"
+                    placeholder="Last Name"
+                    class="py-2 px-4 border border-gray-300 rounded w-full focus:ring-primary focus:border-primary"
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <label
+                  for="exampleInputEmail1"
+                  class="block text-sm font-medium text-gray-600 mb-1"
+                  >Email <span class="text-red-500">*</span></label
+                >
+                <input
+                  type="email"
+                  id="exampleInputEmail1"
+                  placeholder="Your Email"
+                  class="py-2 px-4 border border-gray-300 rounded w-full focus:ring-primary focus:border-primary"
+                />
+              </div>
+              <div class="mb-4">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="block text-sm font-medium text-gray-600 mb-1"
+                  >Message <span class="text-red-500">*</span></label
+                >
+                <textarea
+                  id="exampleFormControlTextarea1"
+                  rows="4"
+                  placeholder="Type Your Message..."
+                  class="py-2 px-4 border border-gray-300 rounded w-full focus:ring-primary focus:border-primary"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="inline-flex items-center justify-center w-full text-sm bg-primary text-white font-medium py-2 px-4 rounded transition hover:shadow-lg hover:bg-primary-dark"
+              >
+                Send
+                <svg
+                  class="w-5 h-5 ml-2 text-white"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== Contact Us End =========== -->
+
+    <!-- !-- =========== Footer Section Start ===========  -->
+    <footer class="bg-gray-100 pt-14 pb-5">
+      <div class="container">
+        <div class="grid grid-cols-4 gap-14">
+          <div class="xl:col-span-1 col-span-4">
+            <a href="index.html">
+              <img src="assets/images/logo-dark.png" class="h-8" />
+            </a>
+            <p class="text-gray-500/80 mt-5">
+                82/6 West Bhashantek, Dhaka, Bangladesh, Dhaka, Bangladesh
+                
+            </p>
+          </div>
+          <div class="xl:col-span-3 col-span-4 xl:mx-20">
+            <div
+              class="flex flex-col sm:flex-row gap-14 flex-wrap justify-between"
+            >
+              <div>
+                <div class="flex flex-col gap-3">
+                  <h5 class="mb-3">About</h5>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Home</a>
+                  </div>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Portfolio</a>
+                  </div>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Resources</a>
+                  </div>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Blog</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="flex flex-col gap-3">
+                  <h5 class="mb-3">Company</h5>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">About</a>
+                  </div>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Career</a>
+                  </div>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Clients</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="flex flex-col gap-3">
+                  <h5 class="mb-3">Get in touch</h5>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">info@terraformsystems.com</a>
+                  </div>
+                  <div class="flex sm:justify-center gap-7">
+                    <div>
+                      <a href="https://www.facebook.com/terraformsystems" target="_blank">
+                        <svg
+                          class="w-5 h-5 text-slate-400 transition-all"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <svg
+                          class="w-5 h-5 text-slate-400 transition-all"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <svg
+                          class="w-5 h-5 text-slate-400 transition-all"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                          ></path>
+                          <rect x="2" y="9" width="4" height="12"></rect>
+                          <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="#">
+                        <svg
+                          class="w-5 h-5 text-slate-400 transition-all"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <rect
+                            x="2"
+                            y="2"
+                            width="20"
+                            height="20"
+                            rx="5"
+                            ry="5"
+                          ></rect>
+                          <path
+                            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                          ></path>
+                          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="flex flex-col gap-3">
+                  <h5 class="mb-3">Languages</h5>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">Francais</a>
+                  </div>
+                  <div class="text-gray-500/80">
+                    <a href="javascript:void(0);">English</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-b my-5"></div>
+        <div class="text-center">
+          <p class="text-gray-500/80 text-sm">
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            © Prompt. All rights reserved. Crafted by
+            <a href="https://terraformsystems.com/" class="text-gray-800 hover:text-primary transition-all"
+               target="_blank">Terraform Systems</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- !-- =========== Footer Section End ===========  -->
+
+    <!-- =========== Back To Top Start =========== -->
+    <button
+      data-toggle="back-to-top"
+      class="fixed text-sm rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-primary/20 text-primary flex justify-center items-center"
+    >
+      <i class="fa-solid fa-arrow-up text-base"></i>
+    </button>
+    <!-- =========== Back To Top End =========== -->
+
+    <!-- Frost Plugin Js -->
+    <script src="assets/libs/@frostui/tailwindcss/frostui.js"></script>
+
+    <!-- Swiper Plugin Js -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Animation on Scroll Plugin Js -->
+    <script src="assets/libs/aos/aos.js"></script>
+
+    <!-- Theme Js -->
+    <script src="assets/js/theme.min.js"></script>
+  </body>
+</html>
