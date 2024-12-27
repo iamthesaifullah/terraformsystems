@@ -3789,6 +3789,9 @@ header.dark.nav-sticky .navbar-nav .nav-link:is(.active, :active, :focus, :hover
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
+.text-position-fixing{
+  margin-left: 10px !important;
+}
 
 @media (min-width: 640px){
   .sm\:col-span-4{
