@@ -23,14 +23,14 @@ try {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'alliesaltcoin@gmail.com'; // Replace with your email
-        $mail->Password = 'xrehsqvshmqnhkev'; // Use App Password for Gmail
+        $mail->Username = 'your email'; // Replace with your email
+        $mail->Password = 'app-password-for-gmail'; // Use App Password for Gmail
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Email Content
         $mail->setFrom($email, "$firstName $lastName");
-        $mail->addAddress('kaisarsaiful@gmail.com'); // Replace with recipient email
+        $mail->addAddress('desired-email'); // Replace with recipient email
         $mail->Subject = 'New Contact Form Submission';
         $mail->Body = "Name: $firstName $lastName\nEmail: $email\nMessage: $message";
 
